@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+}
+
+
+.card_image {
+    height: 11rem;
+    max-width: 170px;
+    margin: auto;
+}
+.card-photo {
+    height: 15rem;
+    max-width: 150px;
+    margin: auto;
+}
+Button {
+    width: 20rem;
+}
+
+.slick-prev {
+    left: 0% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 0% !important;
+    z-index: 1;
+  }
+
+@media screen and (min-width : 856px) {
+    .home-section {
+        height: 35rem;
+        overflow: hidden;
+    }
+    .grid {
+        height: 10rem;
+    }
+}
+
+
+@media screen and (min-width : 550px) {
+    /* .singa {
+        display: none;
+    } */
+}
